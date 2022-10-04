@@ -1,0 +1,10 @@
+:host {
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  background-color: hsl(51, 100%, 50%, 0.5);
+}
+
+.order {
+  font-family: fantasy;
+  color: darkmagenta;
+}

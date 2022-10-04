@@ -10,4 +10,9 @@ export class LotteryWinningOrderComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  moduloBySeven(order: number) {
+    const calculate = order % 7 == 0 ? true : false;
+    return calculate;
+  }
 }
