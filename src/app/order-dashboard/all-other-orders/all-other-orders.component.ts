@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-all-other-orders',
   templateUrl: './all-other-orders.component.html',
-  styleUrls: ['./all-other-orders.component.css']
+  styleUrls: ['./all-other-orders.component.css'],
 })
 export class AllOtherOrdersComponent implements OnInit {
+  @Input() orders!: number[];
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

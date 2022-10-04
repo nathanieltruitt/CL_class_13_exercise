@@ -1,1 +1,5 @@
-<p>first-five-orders works!</p>
+<ul style="list-style: none">
+  <ng-container *ngFor="let order of orders; let i = index">
+    <p *ngIf="i < 5">{{ order }}</p>
+  </ng-container>
+</ul>
