@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.order-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40rem;
+  height: 40rem;
+  margin: 3.5rem;
+}
+
+.order-global {
+  width: 3.5rem;
+  height: 3.5rem;
+}

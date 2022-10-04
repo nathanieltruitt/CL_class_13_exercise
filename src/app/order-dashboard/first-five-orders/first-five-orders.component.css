@@ -1,0 +1,9 @@
+:host {
+  border: 2px solid palevioletred;
+  border-radius: 10px;
+}
+
+.order {
+  font-family: sans-serif;
+  color: darkblue;
+}

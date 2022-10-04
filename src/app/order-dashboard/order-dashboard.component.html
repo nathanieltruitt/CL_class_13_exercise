@@ -6,8 +6,14 @@
     <button (click)="stopOrders()" class="btn btn-danger">Stop Workday</button>
   </div>
   <div class="d-flex justify-content-center">
-    <app-first-five-orders [orders]="orders"></app-first-five-orders>
-    <!-- <app-all-other-orders></app-all-other-orders> -->
+    <app-first-five-orders
+      class="order-box"
+      [orders]="orders"
+    ></app-first-five-orders>
+    <app-all-other-orders
+      class="order-box"
+      [orders]="orders"
+    ></app-all-other-orders>
     <!-- <ul>
       <li *ngFor="let order of orders">{{ order }}</li>
     </ul> -->
