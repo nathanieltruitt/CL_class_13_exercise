@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { OrderDashboardComponent } from './order-dashboard/order-dashboard.component';
 import { BasicCustomPropertyExerciseComponent } from './basic-custom-property-exercise/basic-custom-property-exercise.component';
+import { NestedComponentsInputExerciseComponent } from './nested-components-input-exercise/nested-components-input-exercise.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'basic-custom-property',
     component: BasicCustomPropertyExerciseComponent,
+  },
+  {
+    path: 'nested-components-input',
+    component: NestedComponentsInputExerciseComponent,
   },
 ];
 
@@ -23,4 +28,5 @@ export class AppRoutingModule {}
 export const RoutingComponents = [
   OrderDashboardComponent,
   BasicCustomPropertyExerciseComponent,
+  NestedComponentsInputExerciseComponent,
 ];

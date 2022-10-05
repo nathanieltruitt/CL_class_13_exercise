@@ -9,7 +9,6 @@ import { AllOtherOrdersComponent } from './order-dashboard/all-other-orders/all-
 import { LotteryWinningOrderComponent } from './order-dashboard/lottery-winning-order/lottery-winning-order.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { UserComponent } from './basic-custom-property-exercise/user/user.component';
-import { NestedComponentsInputExerciseComponent } from './nested-components-input-exercise/nested-components-input-exercise.component';
 import { MyProfileComponent } from './nested-components-input-exercise/my-profile/my-profile.component';
 import { PostsComponent } from './nested-components-input-exercise/posts/posts.component';
 
@@ -22,7 +21,6 @@ import { PostsComponent } from './nested-components-input-exercise/posts/posts.c
     LotteryWinningOrderComponent,
     NavbarComponent,
     UserComponent,
-    NestedComponentsInputExerciseComponent,
     MyProfileComponent,
     PostsComponent,
   ],
