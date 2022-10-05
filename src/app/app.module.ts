@@ -8,7 +8,7 @@ import { FirstFiveOrdersComponent } from './order-dashboard/first-five-orders/fi
 import { AllOtherOrdersComponent } from './order-dashboard/all-other-orders/all-other-orders.component';
 import { LotteryWinningOrderComponent } from './order-dashboard/lottery-winning-order/lottery-winning-order.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { BasicCustomPropertyExerciseComponent } from './basic-custom-property-exercise/basic-custom-property-exercise.component';
+import { UserComponent } from './basic-custom-property-exercise/user/user.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { BasicCustomPropertyExerciseComponent } from './basic-custom-property-ex
     AllOtherOrdersComponent,
     LotteryWinningOrderComponent,
     NavbarComponent,
-    BasicCustomPropertyExerciseComponent,
+    UserComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
