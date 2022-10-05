@@ -1,0 +1,15 @@
+:host {
+  padding-top: 5rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 35%;
+}
+
+#user-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}

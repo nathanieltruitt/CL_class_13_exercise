@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { UserComponent } from './basic-custom-property-exercise/user/user.component';
 import { MyProfileComponent } from './nested-components-input-exercise/my-profile/my-profile.component';
 import { PostsComponent } from './nested-components-input-exercise/posts/posts.component';
+import { UserTwoComponent } from './ngfor-input-decorator-exercise/user-two/user-two.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { PostsComponent } from './nested-components-input-exercise/posts/posts.c
     UserComponent,
     MyProfileComponent,
     PostsComponent,
+    UserTwoComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

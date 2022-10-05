@@ -1,0 +1,11 @@
+.user-box {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+}
+
+.user-box h2,
+.user-box h3 {
+  margin: 3rem;
+}

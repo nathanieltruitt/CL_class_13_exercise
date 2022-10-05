@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { OrderDashboardComponent } from './order-dashboard/order-dashboard.component';
 import { BasicCustomPropertyExerciseComponent } from './basic-custom-property-exercise/basic-custom-property-exercise.component';
 import { NestedComponentsInputExerciseComponent } from './nested-components-input-exercise/nested-components-input-exercise.component';
+import { NgforInputDecoratorExerciseComponent } from './ngfor-input-decorator-exercise/ngfor-input-decorator-exercise.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,10 @@ const routes: Routes = [
     path: 'nested-components-input',
     component: NestedComponentsInputExerciseComponent,
   },
+  {
+    path: 'ngFor-input-decorator',
+    component: NgforInputDecoratorExerciseComponent,
+  },
 ];
 
 @NgModule({
@@ -29,4 +34,5 @@ export const RoutingComponents = [
   OrderDashboardComponent,
   BasicCustomPropertyExerciseComponent,
   NestedComponentsInputExerciseComponent,
+  NgforInputDecoratorExerciseComponent,
 ];
