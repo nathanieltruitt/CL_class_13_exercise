@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { OrderDashboardComponent } from './order-dashboard/order-dashboard.component';
+import { RoutingComponents } from './app-routing.module';
 import { FirstFiveOrdersComponent } from './order-dashboard/first-five-orders/first-five-orders.component';
 import { AllOtherOrdersComponent } from './order-dashboard/all-other-orders/all-other-orders.component';
 import { LotteryWinningOrderComponent } from './order-dashboard/lottery-winning-order/lottery-winning-order.component';
@@ -10,15 +10,13 @@ import { LotteryWinningOrderComponent } from './order-dashboard/lottery-winning-
 @NgModule({
   declarations: [
     AppComponent,
-    OrderDashboardComponent,
+    RoutingComponents,
     FirstFiveOrdersComponent,
     AllOtherOrdersComponent,
-    LotteryWinningOrderComponent
+    LotteryWinningOrderComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
