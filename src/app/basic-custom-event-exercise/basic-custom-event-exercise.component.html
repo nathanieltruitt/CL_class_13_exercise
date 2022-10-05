@@ -1,0 +1,3 @@
+<app-search (mySearchEvent)="searchResults = $event"></app-search>
+<!-- only show p tag if searchResults exists -->
+<p *ngIf="searchResults">You search for {{ searchResults }}</p>

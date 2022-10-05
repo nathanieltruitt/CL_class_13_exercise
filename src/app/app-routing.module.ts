@@ -5,6 +5,7 @@ import { OrderDashboardComponent } from './order-dashboard/order-dashboard.compo
 import { BasicCustomPropertyExerciseComponent } from './basic-custom-property-exercise/basic-custom-property-exercise.component';
 import { NestedComponentsInputExerciseComponent } from './nested-components-input-exercise/nested-components-input-exercise.component';
 import { NgforInputDecoratorExerciseComponent } from './ngfor-input-decorator-exercise/ngfor-input-decorator-exercise.component';
+import { BasicCustomEventExerciseComponent } from './basic-custom-event-exercise/basic-custom-event-exercise.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,10 @@ const routes: Routes = [
     path: 'ngFor-input-decorator',
     component: NgforInputDecoratorExerciseComponent,
   },
+  {
+    path: 'basic-custom-event',
+    component: BasicCustomEventExerciseComponent,
+  },
 ];
 
 @NgModule({
@@ -35,4 +40,5 @@ export const RoutingComponents = [
   BasicCustomPropertyExerciseComponent,
   NestedComponentsInputExerciseComponent,
   NgforInputDecoratorExerciseComponent,
+  BasicCustomEventExerciseComponent,
 ];

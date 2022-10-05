@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { RoutingComponents } from './app-routing.module';
@@ -12,6 +13,7 @@ import { UserComponent } from './basic-custom-property-exercise/user/user.compon
 import { MyProfileComponent } from './nested-components-input-exercise/my-profile/my-profile.component';
 import { PostsComponent } from './nested-components-input-exercise/posts/posts.component';
 import { UserTwoComponent } from './ngfor-input-decorator-exercise/user-two/user-two.component';
+import { SearchComponent } from './basic-custom-event-exercise/search/search.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +27,9 @@ import { UserTwoComponent } from './ngfor-input-decorator-exercise/user-two/user
     MyProfileComponent,
     PostsComponent,
     UserTwoComponent,
+    SearchComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
